@@ -9,6 +9,7 @@ export default function RTE ({
     label, 
     defaultValue = ''
 }) {
+    console.log(config.TINY_EDITOR_API_KEY)
     return (
         <div className='w-full'>
         {
